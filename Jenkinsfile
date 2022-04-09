@@ -7,14 +7,9 @@ pipeline {
             }
         }
         stage('Test') {
-             agent {
-                docker {
-                    image 'python:2-alpine'
-                }
-            }
             steps {
                 echo 'Testing..'
-                sh 'python'
+                sh 'sudo'
             }
         }
         stage('Deploy') {
