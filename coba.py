@@ -1,2 +1,2 @@
 print('HALLO TESTING')
-print('Ini di run')
+print('Ini di staging')
