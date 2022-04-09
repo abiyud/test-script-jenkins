@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh 'python'
+                sh 'docker'
             }
         }
         stage('Deploy') {
