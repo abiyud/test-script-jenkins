@@ -10,6 +10,7 @@ pipeline {
             steps {
                 echo 'Testing123..'
                 echo 'Testing66565..'
+                sh 'python coba.py'
             }
         }
         stage('Deploy') {
