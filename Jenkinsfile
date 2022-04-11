@@ -4,6 +4,7 @@ pipeline {
     stage('Back-end') {
       steps {
          echo 'Testing..'
+         sh 'echo YAAA test'
       }
     }
     stage('Front-end') {
